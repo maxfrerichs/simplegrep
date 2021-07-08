@@ -20,6 +20,6 @@ Trust me.";
 
     assert_eq!(
         vec!["Rust:", "Trust me."],
-        search_case_insensitive(query, contents)
+        simplegrep::search_case_insensitive(query, contents);
     );
 }
